@@ -16,16 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val lv_listView: ListView = findViewById(R.id.lv_listview)
-        val tv_textView: TextView = findViewById(R.id.tv_emptyTextView)
-
-        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, resources.getStringArray((R.array.gamenames_array)))
-
-        lv_listView.adapter = adapter
-        lv_listView.onItemClickListener = AdapterView.OnItemClickListener{parent, view, position, id ->
-            Toast.makeText(applicationContext, parent?.getItemAtPosition(position).toString(), Toast.LENGTH_SHORT).show()
-        }
-        lv_listView.emptyView = tv_textView
+       searchOnCreate()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -46,6 +37,20 @@ class MainActivity : AppCompatActivity() {
             }
         })
         return super.onCreateOptionsMenu(menu)
+    }
+
+    private fun searchOnCreate(){
+
+        val lv_listView: ListView = findViewById(R.id.lv_listview)
+        val tv_textView: TextView = findViewById(R.id.tv_emptyTextView)
+
+        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, resources.getStringArray((R.array.gamenames_array)))
+
+        lv_listView.adapter = adapter
+        lv_listView.onItemClickListener = AdapterView.OnItemClickListener{parent, view, position, id ->
+            Toast.makeText(applicationContext, parent?.getItemAtPosition(position).toString(), Toast.LENGTH_SHORT).show()
+        }
+        lv_listView.emptyView = tv_textView
     }
 
 
