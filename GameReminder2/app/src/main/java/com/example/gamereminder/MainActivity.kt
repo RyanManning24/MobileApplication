@@ -1,11 +1,14 @@
 package com.example.gamereminder
 
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var adapter: ArrayAdapter<*>
 
     private var titlesList = mutableListOf<String>()
     private var descList = mutableListOf<String>()
@@ -15,7 +18,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val rv_recyclerView: RecyclerView = findViewById(R.id.rv_recyclerView)
+        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, resources.getStringArray((R.array.gamenames_array)))
+
+
 
         postToList()
 

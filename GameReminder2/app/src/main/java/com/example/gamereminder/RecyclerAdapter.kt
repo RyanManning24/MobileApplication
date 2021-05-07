@@ -1,12 +1,14 @@
 package com.example.gamereminder
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+
+
 
 class RecyclerAdapter(private var titles: List<String>, private var details: List<String>, private  var images:List<Int>) :
 RecyclerView.Adapter<RecyclerAdapter.ViewHolder>(){
@@ -17,10 +19,15 @@ RecyclerView.Adapter<RecyclerAdapter.ViewHolder>(){
         val itemPicture: ImageView = itemView.findViewById(R.id.iv_image)
 
         init{
-            itemView.setOnClickListener { v: View ->
-                val position: Int = adapterPosition
-                Toast.makeText(itemView.context, "You clicked on item # ${position + 1}",Toast.LENGTH_SHORT).show()
-                //button is clicked
+                itemView.setOnClickListener { v: View ->
+                    val position: Int = adapterPosition
+                    //use above to find what the user clicked
+                    val intent = Intent(itemView.context, Details::class.java)
+                    itemView.context.startActivity(intent)
+
+
+                    //button is clicked
+
             }
         }
     }
