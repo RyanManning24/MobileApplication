@@ -1,4 +1,4 @@
-package com.example.gamereminder
+ package com.example.gamereminder
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 class RecyclerAdapter(private var titles: List<String>, private var details: List<String>, private  var images:List<Int>) :
 RecyclerView.Adapter<RecyclerAdapter.ViewHolder>(){
 
+
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val itemTitle: TextView = itemView.findViewById(R.id.tv_title)
         val itemDetail: TextView = itemView.findViewById(R.id.tv_description)
@@ -24,6 +25,8 @@ RecyclerView.Adapter<RecyclerAdapter.ViewHolder>(){
                     //use above to find what the user clicked
                     val intent = Intent(itemView.context, Details::class.java)
                     itemView.context.startActivity(intent)
+
+
 
 
                     //button is clicked
