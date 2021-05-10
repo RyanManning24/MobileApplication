@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#84a59d"
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -16,6 +17,7 @@
         android:layout_marginBottom="4dp"
         tools:itemCount="17"
         tools:listitem="@layout/item_layout"/>
+
 
 
 </RelativeLayout>
