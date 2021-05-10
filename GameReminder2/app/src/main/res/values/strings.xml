@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Game Reminder</string>
+    <string name="no_results">No Results</string>
+    <string name="String">Ratchet And Clank</string>
+
+    <string-array name="gamenames_array">
+        <item>Ratchet And Clank: Rift Apart</item>
+        <item>DeathLoop</item>
+        <item>Resident Evil Village</item>
+        <item>Mass Effect Legendary Edition</item>
+        <item>Chivalry 2</item>
+        <item>Operation Tango</item>
+        <item>Mario Golf: Super Rush</item>
+        <item>Destroy All Humans</item>
+        <item>F1 2021</item>
+        <item>Skate City</item>
+        <item>Days Gone(PC)</item>
+        <item>Wreckfest</item>
+    </string-array>
+
+
 </resources>
