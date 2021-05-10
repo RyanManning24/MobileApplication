@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Game Reminder</string>
     <string name="no_results">No Results</string>
+    <string name="String">Ratchet And Clank</string>
 
     <string-array name="gamenames_array">
         <item>Ratchet And Clank: Rift Apart</item>

@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 class RecyclerAdapter(private var titles: List<String>, private var details: List<String>, private  var images:List<Int>) :
 RecyclerView.Adapter<RecyclerAdapter.ViewHolder>(){
 
+    val listNum = "ID"
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val itemTitle: TextView = itemView.findViewById(R.id.tv_title)
@@ -24,6 +25,7 @@ RecyclerView.Adapter<RecyclerAdapter.ViewHolder>(){
                     val position: Int = adapterPosition
                     //use above to find what the user clicked
                     val intent = Intent(itemView.context, Details::class.java)
+                    intent.putExtra(listNum, position)
                     itemView.context.startActivity(intent)
 
 
