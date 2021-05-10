@@ -37,7 +37,7 @@ class Details : AppCompatActivity() {
         gameName?.text = "Ratchet And Clank"
 
         val gameDesc: TextView? = findViewById(R.id.textView2)
-        gameDesc?.text = "Ratchet & Clank: Rift Apart will explore the story of the titular characters as they traverse across different worlds in multiple realities to stop their archenemy, Doctor Nefarious, from exploiting the catastrophic dimensional collapse to finally achieve his dream of completely exterminating organic life in all universes. The cause of the collapse is attributed to a malfunctioning Dimensionator, a wormhole device created by the Lombaxes capable of opening portals to other dimensions. In the process of destroying the Dimensionator, Ratchet gets separated from Clank after arriving in an alternate dimension ruled by Nefarious’s more capable counterpart, Emperor Nefarious. They also encounter a female Lombax named Rivet who is a resistance fighter. Together, Ratchet, Clank and Rivet will have to work together as part of a resistance team to thwart Nefarious and the Emperor's plans of conquering other realities."
+        gameDesc?.text = "Ratchet & Clank: Rift Apart is an upcoming third-person shooter platform game.Ratchet & Clank: Rift Apart will explore the story of the titular characters as they traverse across different worlds in multiple realities to stop their archenemy, Doctor Nefarious, from exploiting the catastrophic dimensional collapse to finally achieve his dream of completely exterminating organic life in all universes.The game will be released on June 11, 2021."
     }
 
     private fun Load2() {
@@ -126,7 +126,7 @@ class Details : AppCompatActivity() {
         gameName?.text = "Mario Golf: Super Rush"
 
         val gameDesc: TextView? = findViewById(R.id.textView2)
-        gameDesc?.text = "Mario Golf: Super Rush is an upcoming golf video game. The gameplay features various characters from the Mario franchise competing in the sport golf, with regular competition and other modes. The game was announced via a Nintendo Direct in February 2021 and it is set to be released worldwide on June 25, 2021. Pre-orders of the game came with an exclusive pin set."
+        gameDesc?.text = "Mario Golf Super Rush is an upcoming golf video game.The gameplay features various characters from the Mario franchise competing in the sport golf, with regular competition and other modes. The game was announced via a Nintendo Direct in February 2021 and it is set to be released worldwide on June 25, 2021."
 
     }
     private fun Load8() {
