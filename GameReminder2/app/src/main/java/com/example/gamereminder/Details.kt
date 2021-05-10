@@ -52,7 +52,7 @@ class Details : AppCompatActivity() {
         gameName?.text = "Deathloop"
 
         val gameDesc: TextView? = findViewById(R.id.textView2)
-        gameDesc?.text ="Deathloop has the player in the role of Colt, an assassin that is stuck in a time loop, waking up on a beach at the island of Blackreef. The other residents of Blackreef, a former army base where strange experiments had once been held, have invested in the island and have gathered for this night to hold a party that seemingly lasts forever, as at the end of each night, the island resets to the start of the party in that time loop."
+        gameDesc?.text ="Deathloop has the player in the role of Colt, an assassin that is stuck in a time loop, waking up on a beach at the island of Blackreef. The other residents of Blackreef, a former army base where strange experiments had once been held, have invested in the island and have gathered for this night to hold a party that seemingly lasts forever, as at the end of each night, the island resets to the start of the party in that time loop.To be released 04/09/21"
 
     }
 
@@ -67,7 +67,7 @@ class Details : AppCompatActivity() {
         gameName?.text = "Resident Evil Village"
 
         val gameDesc: TextView? = findViewById(R.id.textView2)
-        gameDesc?.text = "Resident Evil Village is a survival horror game developed and published by Capcom. A major installment in the Resident Evil series and a narrative sequel to 2017's Resident Evil 7: Biohazard,[1] the game follows Ethan Winters, who, after a fateful encounter with Chris Redfield, finds himself in a village filled with mutant creatures in an effort to find his kidnapped daughter."
+        gameDesc?.text = "Resident Evil Village is a survival horror game developed and published by Capcom. A major installment in the Resident Evil series and a narrative sequel to 2017's Resident Evil 7: Biohazard,[1] the game follows Ethan Winters, who, after a fateful encounter with Chris Redfield, finds himself in a village filled with mutant creatures in an effort to find his kidnapped daughter. To be released 07/05/21"
 
     }
 
@@ -82,7 +82,7 @@ class Details : AppCompatActivity() {
         gameName?.text = "Mass Effect Legendary Edition"
 
         val gameDesc: TextView? = findViewById(R.id.textView2)
-        gameDesc?.text = "Mass Effect Legendary Edition is a compilation of the video games in the Mass Effect trilogy: Mass Effect, Mass Effect 2, and Mass Effect 3. It is being developed by BioWare with assistance from Abstraction Games and Blind Squirrel Games, and published by Electronic Arts. All three games were remastered, with visual enhancements, technical improvements, and gameplay adjustments. "
+        gameDesc?.text = "Mass Effect Legendary Edition is a compilation of the video games in the Mass Effect trilogy: Mass Effect, Mass Effect 2, and Mass Effect 3. It is being developed by BioWare with assistance from Abstraction Games and Blind Squirrel Games, and published by Electronic Arts. All three games were remastered, with visual enhancements, technical improvements, and gameplay adjustments.To be released 14/05/21 "
 
     }
     private fun Load5() {
@@ -96,7 +96,7 @@ class Details : AppCompatActivity() {
         gameName?.text = "Chivalry 2"
 
         val gameDesc: TextView? = findViewById(R.id.textView2)
-        gameDesc?.text = "Chivalry 2 is a multiplayer first-person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era – from the thunder of cavalry charges, to storms of flaming arrows, sprawling castle sieges, and more."
+        gameDesc?.text = "Chivalry 2 is a multiplayer first-person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era – from the thunder of cavalry charges, to storms of flaming arrows, sprawling castle sieges, and more.To be released 08/06/21"
 
     }
 
@@ -111,7 +111,7 @@ class Details : AppCompatActivity() {
         gameName?.text = "Operation Tango"
 
         val gameDesc: TextView? = findViewById(R.id.textView2)
-        gameDesc?.text = "Co-op puzzle solving - combine skill sets from different points of view to overcome asymmetrical challenges. These missions cannot be completed alone."
+        gameDesc?.text = "Co-op puzzle solving - combine skill sets from different points of view to overcome asymmetrical challenges. These missions cannot be completed alone.Planned release date 01/06/21"
 
     }
 
@@ -140,7 +140,7 @@ class Details : AppCompatActivity() {
         gameName?.text = "Days Gone (PC)"
 
         val gameDesc: TextView? = findViewById(R.id.textView2)
-        gameDesc?.text = "Days Gone is a action-adventure survival horror video game. Set in a post-apocalyptic Oregon two years after the start of a global pandemic, former outlaw-turned-drifter Deacon St. John discovers the possibility of his wife Sarah still being alive, which leads Deacon on a quest to find her."
+        gameDesc?.text = "Days Gone is a action-adventure survival horror video game. Set in a post-apocalyptic Oregon two years after the start of a global pandemic, former outlaw-turned-drifter Deacon St. John discovers the possibility of his wife Sarah still being alive, which leads Deacon on a quest to find her. To be released 18/05/21"
 
     }
 
